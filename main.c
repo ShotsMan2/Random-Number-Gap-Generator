@@ -14,6 +14,7 @@ int main()
     srand(time(NULL));
 
     for(i=0;i<n;i++){
+         deneme=0; 
         for(;;){
             uygunluk=1;
 
@@ -52,3 +53,4 @@ int main()
         printf("%d ",dizi[i]);
     }
 }
+
